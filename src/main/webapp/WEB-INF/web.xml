@@ -1,0 +1,78 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <servlet>
+    <servlet-name>login</servlet-name>
+    <servlet-class>org.example.midterm.UserLoginServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>login</servlet-name>
+    <url-pattern>/UserLoginServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>register</servlet-name>
+    <servlet-class>org.example.midterm.UserRegisterServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>register</servlet-name>
+    <url-pattern>/UserRegisterServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>logout</servlet-name>
+    <servlet-class>org.example.midterm.UserLogoutServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>logout</servlet-name>
+    <url-pattern>/UserLogoutServlet</url-pattern>
+  </servlet-mapping>
+
+  <filter>
+    <filter-name>logFilter</filter-name>
+    <filter-class>org.example.midterm.filter.UserFilter</filter-class>
+  </filter>
+
+  <filter-mapping>
+    <filter-name>logFilter</filter-name>
+    <url-pattern>/UserLogoutServlet</url-pattern>
+  </filter-mapping>
+
+  <servlet>
+    <servlet-name>view</servlet-name>
+    <servlet-class>org.example.midterm.ViewNotesServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>view</servlet-name>
+    <url-pattern>/ViewNotesServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>add</servlet-name>
+    <servlet-class>org.example.midterm.AddNoteServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>add</servlet-name>
+    <url-pattern>/AddNoteServlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>update</servlet-name>
+    <servlet-class>org.example.midterm.UpdateNoteServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>update</servlet-name>
+    <url-pattern>/UpdateNoteServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
