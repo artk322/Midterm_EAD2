@@ -2,6 +2,7 @@ package org.example.midterm;
 
 import org.example.midterm.dbConfig.DbData;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -20,8 +21,9 @@ public class UserRegisterServlet extends HttpServlet {
     String password = request.getParameter("password");
     String password2 = request.getParameter("password2");
 
-    if (password.equals(password2)) {
-
+    if (!password.equals(password2)) {
+      request.setAttribute("message", "Passwords don't match");
+      RequestDispatcher requestDispatcher = request.getRequestDispatcher("register.jsp");
     }
 
     Connection connection = DbData.getConnection();
@@ -32,9 +34,7 @@ public class UserRegisterServlet extends HttpServlet {
       preparedStatement.setString(2, password);
       preparedStatement.executeUpdate();
 
-
       request.getRequestDispatcher("login.jsp").include(request, response);
-
 
     } catch (SQLException throwables) {
       throwables.printStackTrace();
