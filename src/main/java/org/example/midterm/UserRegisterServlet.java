@@ -2,7 +2,6 @@ package org.example.midterm;
 
 import org.example.midterm.dbConfig.DbData;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -15,34 +14,30 @@ import java.sql.SQLException;
 
 
 public class UserRegisterServlet extends HttpServlet {
-  protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-    String name = request.getParameter("name");
-    String password = request.getParameter("password");
-    String password2 = request.getParameter("password2");
+        String name = request.getParameter("name");
+        String password = request.getParameter("password");
 
-    if (!password.equals(password2)) {
-      request.setAttribute("message", "Passwords don't match");
-      RequestDispatcher requestDispatcher = request.getRequestDispatcher("register.jsp");
+        Connection connection = DbData.getConnection();
+
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO Users( name, password)  VALUES (?,?)");
+            preparedStatement.setString(1, name);
+            preparedStatement.setString(2, password);
+            preparedStatement.executeUpdate();
+
+
+            request.getRequestDispatcher("login.jsp").include(request, response);
+
+
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
     }
 
-    Connection connection = DbData.getConnection();
 
-    try {
-      PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO Users( name, password)  VALUES (?,?)");
-      preparedStatement.setString(1, name);
-      preparedStatement.setString(2, password);
-      preparedStatement.executeUpdate();
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-      request.getRequestDispatcher("login.jsp").include(request, response);
-
-    } catch (SQLException throwables) {
-      throwables.printStackTrace();
     }
-  }
-
-
-  protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-  }
 }

@@ -1,6 +1,7 @@
 package org.example.midterm;
 
 import org.example.midterm.dbConfig.DbData;
+import org.example.midterm.exception.DateException;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -34,6 +35,12 @@ public class AddNoteServlet extends HttpServlet {
         }
 
         try {
+
+            if (!date.matches("^([0-2][0-9]||3[0-1])/(0[0-9]||1[0-2])/([0-9][0-9])?[0-9][0-9]$")) {
+
+                throw new DateException("Incorrect date DD/MM/YYYY");
+            }
+
             PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO Notes(title, date, status, user_id)  VALUES(?,?, ?, ?)");
 
             preparedStatement.setString(1, title);
@@ -43,12 +50,12 @@ public class AddNoteServlet extends HttpServlet {
 
             preparedStatement.executeUpdate();
 
-            String message;
+            String notify;
 
-            message = "The note has been  added";
+            notify = "The note has been added";
 
 
-            request.setAttribute("message", message);
+            request.setAttribute("message", notify);
             request.getRequestDispatcher("addNote.jsp").include(request, response);
 
         } catch (SQLException throwables) {
@@ -58,6 +65,6 @@ public class AddNoteServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        request.getRequestDispatcher("addNote.jsp").include(request, response);
     }
 }

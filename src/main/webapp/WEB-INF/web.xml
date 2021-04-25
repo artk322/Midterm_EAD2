@@ -3,6 +3,10 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
+
+
+
+
   <servlet>
     <servlet-name>login</servlet-name>
     <servlet-class>org.example.midterm.UserLoginServlet</servlet-class>
@@ -12,6 +16,7 @@
     <servlet-name>login</servlet-name>
     <url-pattern>/UserLoginServlet</url-pattern>
   </servlet-mapping>
+
 
   <servlet>
     <servlet-name>register</servlet-name>
@@ -23,6 +28,8 @@
     <url-pattern>/UserRegisterServlet</url-pattern>
   </servlet-mapping>
 
+
+
   <servlet>
     <servlet-name>logout</servlet-name>
     <servlet-class>org.example.midterm.UserLogoutServlet</servlet-class>
@@ -32,6 +39,7 @@
     <servlet-name>logout</servlet-name>
     <url-pattern>/UserLogoutServlet</url-pattern>
   </servlet-mapping>
+
 
   <filter>
     <filter-name>logFilter</filter-name>
@@ -50,7 +58,7 @@
 
   <servlet-mapping>
     <servlet-name>view</servlet-name>
-    <url-pattern>/ViewNotesServlet</url-pattern>
+    <url-pattern>/VIewNotesServlet</url-pattern>
   </servlet-mapping>
 
 
@@ -74,5 +82,7 @@
     <servlet-name>update</servlet-name>
     <url-pattern>/UpdateNoteServlet</url-pattern>
   </servlet-mapping>
+
+
 
 </web-app>

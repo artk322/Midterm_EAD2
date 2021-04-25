@@ -25,8 +25,6 @@ public class DeleteNoteServlet extends HttpServlet {
 
         Long id = Long.valueOf(request.getParameter("id"));
 
-
-
         Connection connection = DbData.getConnection();
 
         String userId = null;
@@ -51,7 +49,7 @@ public class DeleteNoteServlet extends HttpServlet {
             preparedStatement.executeUpdate();
 
 
-            request.getRequestDispatcher("/ViewNotesServlet").include(request,response);
+            request.getRequestDispatcher("VIewNotesServlet").include(request,response);
 
 
         } catch (SQLException throwables) {

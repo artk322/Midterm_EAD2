@@ -9,11 +9,12 @@ import java.io.IOException;
 
 
 public class UserLogoutServlet extends HttpServlet {
-  protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-  }
+    }
 
-  protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-    request.getRequestDispatcher("index.jsp").include(request, response);
-  }
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+        request.getRequestDispatcher("index.jsp").include(request,response);
+    }
 }

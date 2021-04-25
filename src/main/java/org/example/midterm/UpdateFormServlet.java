@@ -1,6 +1,7 @@
 package org.example.midterm;
 
 import org.example.midterm.dbConfig.DbData;
+import org.example.midterm.exception.DateException;
 import org.example.midterm.model.Note;
 
 import javax.servlet.ServletException;
@@ -28,6 +29,9 @@ public class UpdateFormServlet extends HttpServlet {
         Note note = null;
 
         try {
+
+
+
             PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM Notes Where id=?");
 
             preparedStatement.setLong(1,id);

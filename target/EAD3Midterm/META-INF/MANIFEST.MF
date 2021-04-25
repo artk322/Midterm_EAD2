@@ -1,5 +1,9 @@
 Manifest-Version: 1.0
 Created-By: IntelliJ IDEA
 Built-By: arthur
-Build-Jdk: version 14.0.2
+Build-Jdk: Azul Zulu Community™ version 15.0.3
+Implementation-Title: Midterm_EAD2 Maven Webapp
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: org.example.midterm
+Main-Class: ${start-class}
 

@@ -1,6 +1,8 @@
 package org.example.midterm.model;
 
-public class Note {
+import java.io.Serializable;
+
+public class Note implements Serializable {
     private String title;
     private Long id;
     private String date;
@@ -11,12 +13,7 @@ public class Note {
     }
 
 
-    public Note(String title, Long id, String date, Boolean status) {
-        this.title = title;
-        this.id = id;
-        this.date = date;
-        this.status = status;
-    }
+
 
     public String getTitle() {
         return title;

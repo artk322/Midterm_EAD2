@@ -1,6 +1,7 @@
 package org.example.midterm;
 
 import org.example.midterm.dbConfig.DbData;
+import org.example.midterm.exception.DateException;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -38,6 +39,11 @@ public class UpdateNoteServlet extends HttpServlet {
         }
 
         try {
+            if (!date.matches("^([0-2][0-9]||3[0-1])/(0[0-9]||1[0-2])/([0-9][0-9])?[0-9][0-9]$")) {
+
+                throw new DateException("Incorrect date DD/MM/YYYY");
+            }
+
             PreparedStatement preparedStatement = connection.prepareStatement("UPDATE Notes SET title=?, date=?, status=? WHERE  id=? and user_id=?");
 
             preparedStatement.setString(1, title);

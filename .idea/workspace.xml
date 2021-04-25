@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Midterm_EAD2:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="894a796b-6a87-4db6-bee2-b5f5fa16ea84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Midterm_EAD2_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Midterm_EAD2_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_6_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_1_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterm_EAD2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/EAD2-Midterm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a2295567-04d7-4760-8583-a99a49f30ca5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a2295567-04d7-4760-8583-a99a49f30ca5/storage_v2/_src_/database/notes_db.vB5MXg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a2295567-04d7-4760-8583-a99a49f30ca5/storage_v2/_src_/database/notes_db.vB5MXg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a2295567-04d7-4760-8583-a99a49f30ca5/storage_v2/_src_/database/notes_db.vB5MXg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a2295567-04d7-4760-8583-a99a49f30ca5/storage_v2/_src_/database/notes_db.vB5MXg/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/midterm/AddNoteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/midterm/AddNoteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/midterm/DeleteNoteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/midterm/DeleteNoteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/midterm/UpdateFormServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/midterm/UpdateFormServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/midterm/UpdateNoteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/midterm/UpdateNoteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/midterm/UserLoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/midterm/UserLoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/midterm/UserLogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/midterm/UserLogoutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/midterm/UserRegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/midterm/UserRegisterServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/midterm/ViewNotesServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/midterm/ViewNotesServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/midterm/dbConfig/DbData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/midterm/dbConfig/DbData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/midterm/filter/LoginFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/midterm/filter/UserFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/midterm/filter/UserFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/midterm/model/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/midterm/model/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.migration/V1__create_users_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.migration/V2__create_notes_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.migration/V3__insert_into_users.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.migration/V4__insert_into_notes.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/addNote.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addNote.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/viewMyNotes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/viewMyNotes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EAD3Midterm/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/EAD3Midterm/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/AddNoteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/AddNoteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/DeleteNoteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/DeleteNoteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/UpdateFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/UpdateFormServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/UpdateNoteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/UpdateNoteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/UserLoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/UserLoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/UserLogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/UserLogoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/UserRegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/UserRegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/ViewNotesServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/ViewNotesServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/dbConfig/DbData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/dbConfig/DbData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/filter/LoginFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/filter/UserFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/filter/UserFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/model/Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/classes/org/example/midterm/model/Note.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/EAD3Midterm/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EAD3Midterm/addNote.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/EAD3Midterm/addNote.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EAD3Midterm/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/EAD3Midterm/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EAD3Midterm/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/EAD3Midterm/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EAD3Midterm/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/EAD3Midterm/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EAD3Midterm/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/EAD3Midterm/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/EAD3Midterm/viewMyNotes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/EAD3Midterm/viewMyNotes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/midterm/AddNoteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/midterm/AddNoteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/midterm/DeleteNoteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/midterm/DeleteNoteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/midterm/UpdateFormServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/midterm/UpdateFormServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/midterm/UpdateNoteServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/midterm/UpdateNoteServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/midterm/UserLoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/midterm/UserLoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/midterm/UserLogoutServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/midterm/UserLogoutServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/midterm/UserRegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/midterm/UserRegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/midterm/ViewNotesServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/midterm/ViewNotesServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/midterm/dbConfig/DbData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/midterm/dbConfig/DbData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/midterm/filter/LoginFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/midterm/filter/UserFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/midterm/filter/UserFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/midterm/model/Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/midterm/model/Note.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1rfqQQ43BLhBeeOOvEUpajUEtWo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.41">
+    <configuration name="Unnamed" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Midterm_EAD2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.midterm.Main" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.41" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.41" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:9999/Midterm_EAD2/" />
+      <option name="BROWSER_ID" value="e5120d43-2c3f-47ef-9f26-65e539e05186" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Midterm_EAD2:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Midterm_EAD2" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="d2fa4ba6-28b3-4d60-beef-91e75381cf40" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54811" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Midterm_EAD2:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Unnamed" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.41" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="894a796b-6a87-4db6-bee2-b5f5fa16ea84" name="Default Changelist" comment="" />
+      <created>1619377476846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619377476846</updated>
+      <workItem from="1619377479066" duration="388000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

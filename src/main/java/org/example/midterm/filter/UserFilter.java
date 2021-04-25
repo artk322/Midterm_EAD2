@@ -8,21 +8,22 @@ import java.io.IOException;
 
 @WebFilter(filterName = "UserFilter")
 public class UserFilter implements Filter {
-  public void destroy() {
-  }
+    public void destroy() {
+    }
 
-  public void doFilter(ServletRequest req, ServletResponse resp, FilterChain chain) throws ServletException, IOException {
-    HttpServletResponse httpResponse = (HttpServletResponse) resp;
-    
-    Cookie ck = new Cookie("userId", "");
-    ck.setMaxAge(0);
-    httpResponse.addCookie(ck);
+    public void doFilter(ServletRequest req, ServletResponse resp, FilterChain chain) throws ServletException, IOException {
+        HttpServletResponse httpResponse = (HttpServletResponse) resp;
 
-    chain.doFilter(req, resp);
-  }
 
-  public void init(FilterConfig config) throws ServletException {
+        Cookie ck = new Cookie("userId", "");
+        ck.setMaxAge(0);
+        httpResponse.addCookie(ck);
 
-  }
+        chain.doFilter(req, resp);
+    }
+
+    public void init(FilterConfig config) throws ServletException {
+
+    }
 
 }
